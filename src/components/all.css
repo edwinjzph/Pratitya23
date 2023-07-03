@@ -1,0 +1,859 @@
+.hero {
+    display: inline-block;
+    color: #fff;
+    z-index: 2;
+   
+  
+    /* Bright things in dark environments usually cast that light, giving off a glow */
+    filter: drop-shadow(0 1px 3px);
+  }
+  .timesup {
+
+    font-size: 20px;
+  }
+  .events_home a{
+    text-decoration: none;
+  }
+  .counter_display {
+    display: flex;
+  
+   
+    flex-direction: row;
+  
+    align-items: baseline;
+    gap: 8px;
+  }
+  .frost{
+    -webkit-backdrop-filter: blur(.3rem);
+    backdrop-filter: blur(0.1rem);
+    background-color: rgba(0,0,0,.3);
+  }
+  .home_sub{
+    padding-left: 100px;
+  }
+  .categorie_list{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap:  10px !important;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.categorie_select{
+
+  color: white;
+  background-color: black;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  padding: 6px 16px  6px 16px;
+  min-width: 60px;
+margin-top: 12px;
+  justify-content: center;
+  border-radius: 20px;
+}
+.selected{
+  color: black;
+
+}
+.timesup{
+  font-style: italic;
+}
+  
+  .card{
+    cursor: pointer;
+    transition: transform .2s; 
+  }
+  
+ .crd_cnt{
+ 
+  background: linear-gradient(0deg,#000,#000,#0000) !important;
+}
+
+
+.con_sub{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.home_btns button{
+  cursor: pointer;
+}
+.con_sub h3{
+  font-size: 1.4rem;
+  font-family: 'Roboto', sans-serif;
+}
+.con_sub span{
+  font-size: .9rem;
+}
+.card:hover{
+  transform: scale(1);
+
+}
+.card{
+  transform: scale(.98);
+}
+.footer span{
+  font-family: 'Roboto', sans-serif;
+}
+.con{
+  display: flex;
+  flex-direction:column;
+}
+.search{
+  margin-top: 20px;
+}
+.throwback{
+
+  padding-bottom: 30px;
+}
+.throwback h1{
+margin-top: 70px !important;
+text-align: center;
+font-family: 'bazer';
+font-style: italic;
+font-weight: 300;
+font-size: 40px;
+}
+.evt_wi h5{
+  font-family: 'Bangers', cursive;
+}
+.gal{
+  overflow: scroll;
+}
+@media screen and (max-width: 800px) {
+  .evt_main{
+    flex-direction: column;
+    gap: 20px !important;
+}
+
+}
+@media screen and (max-width: 1000px) {
+  .home{
+    background-size: 70% auto  !important;
+    background-position: center 100px !important;
+    justify-content: flex-end !important;
+  }
+  .home_sub{
+    justify-content: end !important;
+    padding-bottom: 100px;
+
+    padding-left: 15px;
+  
+  }
+  .MuiGrid-root{
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home_sub{
+    justify-content: end !important;
+    padding-bottom: 110px;
+    padding-left: 15px;
+  
+  }
+  .col_name{
+    font-size: 14px;
+  }
+  .categorie_list{
+    margin-bottom: 0;
+  }
+
+  .home h1{
+    font-size: 35px !important;
+  }
+  .throwback img{
+    height: 200px !important;
+    width: 300px !important;
+  }
+  .gal{
+    overflow-x: scroll;
+    animation: none;
+  }
+.nav{
+  position: fixed;
+}
+.home_btns button{
+  width: 140px !important;
+  
+}
+
+
+.evt_wi{
+  width: 90% !important;
+}
+.event_data img{
+  max-width: none !important;
+}
+
+
+
+}
+.evt_sub{
+  display: flex;
+  flex-direction: column;
+}
+.evt h1 h3 p span{
+  font-family: 'Roboto', sans-serif;
+}
+.span_menu{
+  color: #fff !important;
+}
+
+.gal::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+.save_changes{
+  display: flex;
+  justify-content: center;
+  border: none;
+  margin-top: 20px;
+font-weight: 600;
+font-size: 15px;
+ color: white;
+ width: 50%;
+ border-radius: 10px;
+ padding: 15px;
+ cursor: pointer;
+
+}
+
+
+  .events_home h3,h5{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+ 
+  .events_home h1{
+    font-family: 'bazer';
+    font-weight: 200;
+    margin-top: 50px !important;
+    font-style: italic;
+    font-size: 40px;
+  }
+  .counter_display p {
+    font-family: 'bazer';
+    font-style: italic;
+    font-weight: 300;
+  }
+  .counter_display span{
+    font-style: italic;
+    font-weight: 300;
+    font-family: 'bazer';
+  }
+  .c0 {
+    font-size: 50px;
+  }
+  .c1 {
+    font-size: 40px;
+  }
+  .c2 {
+    font-size: 30px;
+  }
+  .c3 {
+    font-size: 20px;
+  }
+  .c0 p {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .c1 p {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .c2 p {
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  .c3 p {
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  @media screen and (max-width: 600px) {
+    .c0 {
+      font-size: 20px;
+    }
+    .c1 {
+      font-size: 16px;
+    }
+    .c2 {
+      font-size: 12px;
+    }
+    .c3 {
+      font-size: 10px;
+    }
+    .c0 p {
+      font-size: 8px;
+      
+    }
+    .c1 p {
+      font-size: 8px;
+     
+    }
+    .c2 p {
+      font-size: 8px;
+    
+    }
+    .c3 p {
+      font-size: 8px;
+    
+    }
+    .home button{
+      font-size: 11px !important;
+    }
+    .content h2{
+      font-size: 22px;
+      text-align: center;
+    }
+    .content{
+      height: 200px !important;
+    }
+    .events_home h1{
+      font-size: 25px;
+      padding-top: 20px !important;
+    }
+    .event_data h2{
+font-size: 30px !important;
+    }
+
+    .throwback h1{
+      font-size: 25px;
+      margin-top: 30px !important;
+    }
+    .card{
+      max-width: 300px !important;
+      margin-top: 20px !important;
+    }
+    .card img{
+      height: 350px !important;
+      max-width: none !important;
+    }
+    .con_card{
+    width: 90%  !important;
+    }
+    .timesup{
+      font-size: 17px;
+      font-weight: 300;
+    }
+    .marquee p{
+      font-size: 13px;
+    }
+  }
+  	.MuiOutlinedInput-notchedOutline{
+      border-color: white !important;
+    }
+    .MuiFormLabel-root{
+      color: white !important;
+    }
+    .MuiSvgIcon-root{
+      fill: white !important;
+    }
+    .MuiInputBase-input{
+      color: white !important;
+    }
+  .counter {
+    display: flex;
+    gap: 4px;
+    align-items: baseline;
+  
+    flex-direction: row;
+  }  
+  
+  .layers {
+    position: relative;
+  }
+  
+  .layers::before,
+  .layers::after {
+    content: attr(data-text);
+    position: absolute;
+    width: 110%;
+    z-index: -1;
+  }
+  
+  .layers::before {
+    top: 10px;
+    left: 15px;
+    color: #e0287d;
+  }
+  
+  .layers::after {
+    top: 5px;
+    left: -10px;
+    color: #1bc7fb;
+  }
+  
+  .single-path {
+    clip-path: polygon(
+      0% 12%,
+      53% 12%,
+      53% 26%,
+      25% 26%,
+      25% 86%,
+      31% 86%,
+      31% 0%,
+      53% 0%,
+      53% 84%,
+      92% 84%,
+      92% 82%,
+      70% 82%,
+      70% 29%,
+      78% 29%,
+      78% 65%,
+      69% 65%,
+      69% 66%,
+      77% 66%,
+      77% 45%,
+      85% 45%,
+      85% 26%,
+      97% 26%,
+      97% 28%,
+      84% 28%,
+      84% 34%,
+      54% 34%,
+      54% 89%,
+      30% 89%,
+      30% 58%,
+      83% 58%,
+      83% 5%,
+      68% 5%,
+      68% 36%,
+      62% 36%,
+      62% 1%,
+      12% 1%,
+      12% 34%,
+      60% 34%,
+      60% 57%,
+      98% 57%,
+      98% 83%,
+      1% 83%,
+      1% 53%,
+      91% 53%,
+      91% 84%,
+      8% 84%,
+      8% 83%,
+      4% 83%
+    );
+  }
+  
+  .paths {
+    animation: paths 5s step-end infinite;
+  }
+  
+  @keyframes paths {
+    0% {
+      clip-path: polygon(
+        0% 43%,
+        83% 43%,
+        83% 22%,
+        23% 22%,
+        23% 24%,
+        91% 24%,
+        91% 26%,
+        18% 26%,
+        18% 83%,
+        29% 83%,
+        29% 17%,
+        41% 17%,
+        41% 39%,
+        18% 39%,
+        18% 82%,
+        54% 82%,
+        54% 88%,
+        19% 88%,
+        19% 4%,
+        39% 4%,
+        39% 14%,
+        76% 14%,
+        76% 52%,
+        23% 52%,
+        23% 35%,
+        19% 35%,
+        19% 8%,
+        36% 8%,
+        36% 31%,
+        73% 31%,
+        73% 16%,
+        1% 16%,
+        1% 56%,
+        50% 56%,
+        50% 8%
+      );
+    }
+  
+    5% {
+      clip-path: polygon(
+        0% 29%,
+        44% 29%,
+        44% 83%,
+        94% 83%,
+        94% 56%,
+        11% 56%,
+        11% 64%,
+        94% 64%,
+        94% 70%,
+        88% 70%,
+        88% 32%,
+        18% 32%,
+        18% 96%,
+        10% 96%,
+        10% 62%,
+        9% 62%,
+        9% 84%,
+        68% 84%,
+        68% 50%,
+        52% 50%,
+        52% 55%,
+        35% 55%,
+        35% 87%,
+        25% 87%,
+        25% 39%,
+        15% 39%,
+        15% 88%,
+        52% 88%
+      );
+    }
+  
+    30% {
+      clip-path: polygon(
+        0% 53%,
+        93% 53%,
+        93% 62%,
+        68% 62%,
+        68% 37%,
+        97% 37%,
+        97% 89%,
+        13% 89%,
+        13% 45%,
+        51% 45%,
+        51% 88%,
+        17% 88%,
+        17% 54%,
+        81% 54%,
+        81% 75%,
+        79% 75%,
+        79% 76%,
+        38% 76%,
+        38% 28%,
+        61% 28%,
+        61% 12%,
+        55% 12%,
+        55% 62%,
+        68% 62%,
+        68% 51%,
+        0% 51%,
+        0% 92%,
+        63% 92%,
+        63% 4%,
+        65% 4%
+      );
+    }
+  
+    45% {
+      clip-path: polygon(
+        0% 33%,
+        2% 33%,
+        2% 69%,
+        58% 69%,
+        58% 94%,
+        55% 94%,
+        55% 25%,
+        33% 25%,
+        33% 85%,
+        16% 85%,
+        16% 19%,
+        5% 19%,
+        5% 20%,
+        79% 20%,
+        79% 96%,
+        93% 96%,
+        93% 50%,
+        5% 50%,
+        5% 74%,
+        55% 74%,
+        55% 57%,
+        96% 57%,
+        96% 59%,
+        87% 59%,
+        87% 65%,
+        82% 65%,
+        82% 39%,
+        63% 39%,
+        63% 92%,
+        4% 92%,
+        4% 36%,
+        24% 36%,
+        24% 70%,
+        1% 70%,
+        1% 43%,
+        15% 43%,
+        15% 28%,
+        23% 28%,
+        23% 71%,
+        90% 71%,
+        90% 86%,
+        97% 86%,
+        97% 1%,
+        60% 1%,
+        60% 67%,
+        71% 67%,
+        71% 91%,
+        17% 91%,
+        17% 14%,
+        39% 14%,
+        39% 30%,
+        58% 30%,
+        58% 11%,
+        52% 11%,
+        52% 83%,
+        68% 83%
+      );
+    }
+  
+    76% {
+      clip-path: polygon(
+        0% 26%,
+        15% 26%,
+        15% 73%,
+        72% 73%,
+        72% 70%,
+        77% 70%,
+        77% 75%,
+        8% 75%,
+        8% 42%,
+        4% 42%,
+        4% 61%,
+        17% 61%,
+        17% 12%,
+        26% 12%,
+        26% 63%,
+        73% 63%,
+        73% 43%,
+        90% 43%,
+        90% 67%,
+        50% 67%,
+        50% 41%,
+        42% 41%,
+        42% 46%,
+        50% 46%,
+        50% 84%,
+        96% 84%,
+        96% 78%,
+        49% 78%,
+        49% 25%,
+        63% 25%,
+        63% 14%
+      );
+    }
+  
+    90% {
+      clip-path: polygon(
+        0% 41%,
+        13% 41%,
+        13% 6%,
+        87% 6%,
+        87% 93%,
+        10% 93%,
+        10% 13%,
+        89% 13%,
+        89% 6%,
+        3% 6%,
+        3% 8%,
+        16% 8%,
+        16% 79%,
+        0% 79%,
+        0% 99%,
+        92% 99%,
+        92% 90%,
+        5% 90%,
+        5% 60%,
+        0% 60%,
+        0% 48%,
+        89% 48%,
+        89% 13%,
+        80% 13%,
+        80% 43%,
+        95% 43%,
+        95% 19%,
+        80% 19%,
+        80% 85%,
+        38% 85%,
+        38% 62%
+      );
+    }
+  
+    1%,
+    7%,
+    33%,
+    47%,
+    78%,
+    93% {
+      clip-path: none;
+    }
+  }
+  
+  .movement {
+    /* Normally this position would be absolute & on the layers, set to relative here so we can see it on the div */
+    position: relative;
+    animation: movement 8s step-end infinite;
+  }
+  
+  @keyframes movement {
+    0% {
+      top: 0px;
+      left: -20px;
+    }
+  
+    15% {
+      top: 10px;
+      left: 10px;
+    }
+  
+    60% {
+      top: 5px;
+      left: -10px;
+    }
+  
+    75% {
+      top: -5px;
+      left: 20px;
+    }
+  
+    100% {
+      top: 10px;
+      left: 5px;
+    }
+  }
+  
+  .opacity {
+    animation: opacity 5s step-end infinite;
+  }
+  
+  @keyframes opacity {
+    0% {
+      opacity: 0.1;
+    }
+  
+    5% {
+      opacity: 0.7;
+    }
+  
+    30% {
+      opacity: 0.4;
+    }
+  
+    45% {
+      opacity: 0.6;
+    }
+  
+    76% {
+      opacity: 0.4;
+    }
+  
+    90% {
+      opacity: 0.8;
+    }
+  
+    1%,
+    7%,
+    33%,
+    47%,
+    78%,
+    93% {
+      opacity: 0;
+    }
+  }
+  
+  .font {
+    animation: font 7s step-end infinite;
+  }
+  
+  @keyframes font {
+    0% {
+      font-weight: 100;
+      color: #e0287d;
+      filter: blur(3px);
+    }
+  
+    20% {
+      font-weight: 500;
+      color: #fff;
+      filter: blur(0);
+    }
+  
+    50% {
+      font-weight: 300;
+      color: #1bc7fb;
+      filter: blur(2px);
+    }
+  
+    60% {
+      font-weight: 700;
+      color: #fff;
+      filter: blur(0);
+    }
+  
+    90% {
+      font-weight: 500;
+      color: #e0287d;
+      filter: blur(6px);
+    }
+  }
+  
+  .glitch span {
+    animation: paths 5s step-end infinite;
+  }
+  .event_data{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  align-items: start;
+  }
+  .glitch::before {
+    animation: paths 5s step-end infinite, opacity 5s step-end infinite,
+      font 8s step-end infinite, movement 10s step-end infinite;
+  }
+  
+  .glitch::after {
+    animation: paths 5s step-end infinite, opacity 5s step-end infinite,
+      font 7s step-end infinite, movement 8s step-end infinite;
+  }
+  
+  .wrapper {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 100s linear infinite;
+  }
+  .footer a:hover{
+    text-decoration: underline !important ;
+  }
+ 
+  .marquee p {
+ 
+    display: inline-block;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+
+  
